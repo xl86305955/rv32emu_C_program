@@ -17,9 +17,9 @@ void main()
     	*tx = *output;
     	output++;
     }
-
-    for (int i=1;i<=NUM;i++)
-	mul*=i;
+    
+    for (int =1; i<NUM+1; i++)
+	   mul *= i; 
     
     int tmp;
     
@@ -52,12 +52,6 @@ void main()
     	*tx = o_char[count];	
     }
 
-
-/*    while (*result) {
-    	*tx = *result;
-    	result++;
-    }
-*/
 }
 
 
